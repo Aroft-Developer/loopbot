@@ -9,7 +9,7 @@ type FooterProps = {
           <h1>
             Brought to you by{" "}
             <a
-              href="#"
+              href="https://github.com/Aroft-Developer"
               className={`underline ${isDark ? "decoration-[#040712]" : "decoration-[#e1e7ef]"} decoration-2`}
             >
               Aroft
@@ -19,14 +19,14 @@ type FooterProps = {
         <div className="w-1/2 flex justify-end mr-5">
           <h1 className="flex">
             <a
-              href="#"
+              href="/docs/terms/cgv"
               className={`hover:underline ${isDark ? "decoration-[#040712]" : "decoration-[#e1e7ef]"}`}
             >
               Terms of Sale
             </a>
             <p className="ml-2 mr-2">•</p>
             <a
-              href="#"
+              href="cgu"
               className={`hover:underline ${isDark ? "decoration-[#040712]" : "decoration-[#e1e7ef]"}`}
             >
               Terms of Use
